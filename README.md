@@ -6,7 +6,7 @@ Unrestricted send mails through csrf vulnerability by using that web mail
 # Get Started
 pip -r reqirements.txt
 <br>
-#Options
+# Options
 Option(arguments)<br>
 -u : URL<br>
 -s : Sender<br>
