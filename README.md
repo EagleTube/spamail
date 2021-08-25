@@ -18,9 +18,11 @@ Option(arguments)<br>
 -c : count<br>
 <br>
 Example --singlemass<br>
+python ssf.py -u https://example.com/ -s admin@example.com -x template/template.txt -r target@mail.com --singlemass -c 10<br>
 ![Screenshot_2](https://user-images.githubusercontent.com/87413459/130817036-fb5ac148-e0ab-472c-babd-288413ef1a54.png)
 <br><br>
 Example --mass<br>
+python ssf.py -u https://example.com/ -s admin@example.com -x template.txt -r mail/list.txt --mass<br>
 ![Screenshot_3](https://user-images.githubusercontent.com/87413459/130817107-b22d5c6a-b05b-450f-8fdb-6839853c5c6b.png)
 <br><br>
 Example target inbox<br>
