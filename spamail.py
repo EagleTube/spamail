@@ -53,15 +53,7 @@ def loadTemplate(txt):
         print(Style.BRIGHT+Fore.RED+"File '{}' not found".format(txt))
 
 def position(arr,types):
-    if(types=="-u"):
-        return arr.index(types) + 1
-    elif(types=="-s"):
-        return arr.index(types) + 1
-    elif(types=="-r"):
-        return arr.index(types) + 1
-    elif(types=="-x"):
-        return arr.index(types) + 1
-    elif(types=="-c"):
+    if(types=="-u" or types=="-s" or types=="-r" or types=="-x" or types=="-c"):
         return arr.index(types) + 1
     else:
         print(Style.BRIGHT+Fore.White+"\t\t\t\tNo such options for {}!".format(types))
@@ -186,8 +178,3 @@ else:
         sys.exit(0)
     except SystemExit:
         os._exit(0)
-
-
-
-
-
