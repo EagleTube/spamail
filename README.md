@@ -1,4 +1,4 @@
-# Unrestrited SENDMAIL (SSF Vulnerability)
+# Unrestricted SENDMAIL (SSF Vulnerability)
 Unrestricted send mails through csrf vulnerability by using that web mail
 <br>
 ![Screenshot_1](https://user-images.githubusercontent.com/87413459/130816647-4136fc36-768c-4577-86ad-c07b03013495.png)
