@@ -1,5 +1,5 @@
 # Unrestricted SENDMAIL (SSF Vulnerability)
-Unrestricted send mails through csrf vulnerability by using that web mail
+Unrestricted send mails through csrf vulnerability using target server mail
 <br>
 ![Screenshot_1](https://user-images.githubusercontent.com/87413459/130816647-4136fc36-768c-4577-86ad-c07b03013495.png)
 
@@ -30,4 +30,4 @@ Example target inbox<br>
 ![Screenshot_5](https://user-images.githubusercontent.com/87413459/130817202-3f1592fe-f28e-43e5-b077-fe13c2dae7ec.png)
 
 # Platforms
-Can be use in windows or linux
+Can be use in windows & linux
