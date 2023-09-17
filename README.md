@@ -4,7 +4,7 @@ Unrestricted send mails through csrf vulnerability using target server mail
 ![Screenshot_1](https://user-images.githubusercontent.com/87413459/130816647-4136fc36-768c-4577-86ad-c07b03013495.png)
 
 # Get Started
-pip -r reqirements.txt
+pip -r requirements.txt
 <br>
 # Options
 Option(arguments)<br>
